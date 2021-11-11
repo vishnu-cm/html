@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+ <head>
+      <title>Form</title>
+   </head>
+   <body>
+    <form>
+    
+         <!--Text, Email, Password fields  -->
+
+        <label for="name">Name:</label><br>
+        <input placeholder="Name" type="text" id="name" name="name" maxlength="25" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" value="test@example.com" autofocus="autofocus" required><br>
+
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd" minlength="6" required><br><br>
+
+
+        <!--Drop down Category -->
+
+        <label for="Category ">Category :</label>
+
+        <select name="Category " id="Category" required>
+          <option value="student">Student</option>
+          <option value="employee">Employee</option>
+          <option value="freelancer" selected>Freelancer</option>
+        </select><br><br>
+
+        <!-- Date input field -->
+
+         <label for="Event date">Event date:</label>
+         <input type="date" id="Event date" name="Event date" required><br><br>
+
+        <!-- Radio button -->
+         
+         <label for="tickets" >Tickets:</label>
+         <input type = "radio" name = "ticket" value = "1 ticket" required> 1 ticket
+         <input type = "radio" name = "ticket" value = "2 tickets" checked> 2 tickets
+         <input type = "radio" name = "ticket" value = "3 tickets"> 3 tickets<br><br>
+
+
+         <!-- checkbox -->
+           
+         <label for="payment">Payment:</label>  
+         <input type="checkbox" id="Online payment" name="Online payment" value="Online payment" required>
+         <label for="Online payment"> Online payment</label><br><br>
+
+         <!-- Notes -->
+
+         <label for="Notes">Notes:</label><br>
+         <textarea placeholder="Notes..."></textarea>
+         </textarea><br>
+
+         <!-- Submit and Reset -->
+
+        <input type = "submit" name = "submit" value = "Submit"/> <input type="reset" value="Reset">
+
+
+
+
+      </form>
+   </body>
+</html>
+
+
+
+
